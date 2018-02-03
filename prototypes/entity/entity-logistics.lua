@@ -13,6 +13,7 @@ data:extend({
     collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
     selection_box = {{-2, -2}, {2, 2}},
     dying_explosion = "medium-explosion",
+    fast_replaceable_group = "roboport",
     energy_source =
     {
       type = "electric",
@@ -33,6 +34,7 @@ data:extend({
     charging_offsets =
     {
       {-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5},
+      {-2.5, -1.5}, {2.5, -1.5},
     },
     base =
     {
@@ -70,7 +72,7 @@ data:extend({
     },
     base_patch =
     {
-      filename = "__FactorioExtended-Logistics__/graphics/entity/roboport/roboport-base-patch-mk2.png",
+      filename = "__FactorioExtended-Logistics__/graphics/entity/roboport/roboport-base-mk2.png",
       priority = "medium",
       width = 69,
       height = 50,
@@ -199,6 +201,8 @@ data:extend({
     collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
     selection_box = {{-2, -2}, {2, 2}},
     dying_explosion = "medium-explosion",
+    fast_replaceable_group = "roboport",
+
     energy_source =
     {
       type = "electric",
@@ -212,13 +216,14 @@ data:extend({
     charging_energy = "3000kW",
     logistics_radius = 50,
     construction_radius = 100,
-    charge_approach_distance = 5,
+    charge_approach_distance = 7,
     robot_slots_count = 7,
     material_slots_count = 7,
     stationing_offset = {0, 0},
     charging_offsets =
     {
       {-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5},
+      {-2.5, -1.5}, {2.5, -1.5}, {2.5, 2.5}, {-2.5, 2.5},
     },
     base =
     {
@@ -256,7 +261,7 @@ data:extend({
     },
     base_patch =
     {
-      filename = "__FactorioExtended-Logistics__/graphics/entity/roboport/roboport-base-patch-mk3.png",
+      filename = "__FactorioExtended-Logistics__/graphics/entity/roboport/roboport-base-mk3.png",
       priority = "medium",
       width = 69,
       height = 50,
