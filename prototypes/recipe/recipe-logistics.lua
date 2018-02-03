@@ -28,6 +28,8 @@ data:extend(
     result = "roboport-mk3",
     energy_required = 15
   },
+  
+  
   {
     type = "recipe",
     name = "logistic-robot-mk2",
