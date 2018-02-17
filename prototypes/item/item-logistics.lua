@@ -8,7 +8,7 @@ data:extend({
     subgroup = "fb-logistics",
     order = "a-a",
     place_result = "roboport-mk2",
-    stack_size = 5
+    stack_size = 10
   },
   {
     type = "item",
@@ -19,7 +19,7 @@ data:extend({
     subgroup = "fb-logistics",
     order = "a-b",
     place_result = "roboport-mk3",
-    stack_size = 5
+    stack_size = 10
   },
   
   
