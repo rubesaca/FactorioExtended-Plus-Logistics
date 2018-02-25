@@ -28,8 +28,6 @@ data:extend(
     result = "roboport-mk3",
     energy_required = 15
   },
-  
-  
   {
     type = "recipe",
     name = "logistic-robot-mk2",
@@ -37,7 +35,7 @@ data:extend(
     ingredients =
     {
       {"logistic-robot", 1},
-      {"processing-unit", 2},
+      {"advanced-circuit", 4},
       {"effectivity-module", 1},
       {"speed-module", 1},
       {"battery-equipment", 1}
@@ -51,7 +49,7 @@ data:extend(
     ingredients =
     {
       {"construction-robot", 1},
-      {"processing-unit", 2},
+      {"advanced-circuit", 4},
       {"effectivity-module", 1},
       {"speed-module", 1},
       {"battery-equipment", 1}

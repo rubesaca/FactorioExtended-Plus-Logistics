@@ -15,13 +15,14 @@ data:extend(
     },
     unit = 
     {
-      count = 450,
+      count = 600,
       ingredients = 
       {
-        {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 30
     },
@@ -43,13 +44,14 @@ data:extend(
     },
     unit = 
     {
-      count = 500,
+      count = 750,
       ingredients = 
       {
-        {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 30
     },
@@ -71,13 +73,14 @@ data:extend(
     },
     unit =
     {
-      count = 600,
+      count = 900,
       ingredients =
       {
-        {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"high-tech-science-pack", 1},
+        {"production-science-pack", 1}
       },
       time = 60
     },
@@ -99,13 +102,14 @@ data:extend(
     },
     unit =
     {
-      count = 750,
+      count = 1050,
       ingredients =
       {
-        {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"high-tech-science-pack", 1},
+        {"production-science-pack", 1}
       },
       time = 60
     },
@@ -127,13 +131,14 @@ data:extend(
     },
     unit =
     {
-      count = 1000,
+      count = 1200,
       ingredients =
       {
-        {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"high-tech-science-pack", 1},
+        {"production-science-pack", 1}
       },
       time = 60
     },
@@ -155,13 +160,14 @@ data:extend(
     },
     unit =
     {
-      count = 1250,
+      count = 1350,
       ingredients =
       {
-        {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"high-tech-science-pack", 1},
+        {"production-science-pack", 1},
       },
       time = 60
     },

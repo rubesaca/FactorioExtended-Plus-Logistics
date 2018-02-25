@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item",
     name = "roboport-mk2",
-    icon = "__FactorioExtended-Logistics__/graphics/icons/roboport-mk2.png",
+    icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/roboport-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",
@@ -13,7 +13,7 @@ data:extend({
   {
     type = "item",
     name = "roboport-mk3",
-    icon = "__FactorioExtended-Logistics__/graphics/icons/roboport-mk3.png",
+    icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/roboport-mk3.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",
@@ -21,12 +21,10 @@ data:extend({
     place_result = "roboport-mk3",
     stack_size = 10
   },
-  
-  
   {
     type = "item",
     name = "logistic-robot-mk2",
-    icon = "__FactorioExtended-Logistics__/graphics/icons/logistic-robot-mk2.png",
+    icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/logistic-robot-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",
@@ -37,7 +35,7 @@ data:extend({
   {
     type = "item",
     name = "construction-robot-mk2",
-    icon = "__FactorioExtended-Logistics__/graphics/icons/construction-robot-mk2.png",
+    icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/construction-robot-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",

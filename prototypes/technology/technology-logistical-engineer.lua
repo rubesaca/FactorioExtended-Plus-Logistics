@@ -5,7 +5,7 @@ data:extend(
     name = "logistic-robotics-2",
     icon = "__base__/graphics/technology/logistic-robotics.png",
     icon_size = 128,
-    prerequisites = {"robotics", "logistic-robotics"},
+    prerequisites = { "logistic-robotics", "advanced-electronics-2", "speed-module", "effectivity-module"},
     effects =
     {
       {
@@ -19,19 +19,16 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "construction-robot-mk2"
-      },
-      {
-        type = "ghost-time-to-live",
-        modifier = 60 * 60 * 10
       }
     },
     unit =
     {
-      count = 300,
+      count = 600,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
@@ -49,19 +46,16 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "roboport-mk3"
-      },
-      {
-        type = "ghost-time-to-live",
-        modifier = 60 * 60 * 20
       }
     },
     unit =
     {
-      count = 300,
+      count = 600,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
