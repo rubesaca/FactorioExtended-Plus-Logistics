@@ -72,7 +72,7 @@ data:extend({
     },
     base_patch =
     {
-      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk2.png",
+      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk2-patch.png",
       priority = "medium",
       width = 69,
       height = 50,
@@ -261,7 +261,7 @@ data:extend({
     },
     base_patch =
     {
-      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk3.png",
+      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk3-patch.png",
       priority = "medium",
       width = 69,
       height = 50,
