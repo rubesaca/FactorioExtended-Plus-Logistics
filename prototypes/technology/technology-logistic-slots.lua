@@ -15,7 +15,7 @@ data:extend(
     },
     unit =
     {
-      count = 1100,
+      count = 1200,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -44,7 +44,7 @@ data:extend(
     prerequisites = {"character-logistic-slots-7"},
     unit =
     {
-      count = 1200,
+      count = 1400,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -73,7 +73,7 @@ data:extend(
     prerequisites = {"character-logistic-slots-8"},
     unit =
     {
-      count = 1300,
+      count = 1600,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -102,7 +102,7 @@ data:extend(
     prerequisites = {"character-logistic-slots-9"},
     unit =
     {
-      count = 1400,
+      count = 2000,
       ingredients =
       {
         {"science-pack-1", 1},

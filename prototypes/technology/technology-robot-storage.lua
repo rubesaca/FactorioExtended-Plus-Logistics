@@ -15,7 +15,7 @@ data:extend(
     },
     unit = 
     {
-      count = 600,
+      count = 800,
       ingredients = 
       {
         {"science-pack-1", 1},
@@ -44,7 +44,7 @@ data:extend(
     },
     unit = 
     {
-      count = 750,
+      count = 1200,
       ingredients = 
       {
         {"science-pack-1", 1},
@@ -73,7 +73,7 @@ data:extend(
     },
     unit =
     {
-      count = 900,
+      count = 1500,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -102,7 +102,7 @@ data:extend(
     },
     unit =
     {
-      count = 1050,
+      count = 1800,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -131,7 +131,7 @@ data:extend(
     },
     unit =
     {
-      count = 1200,
+      count = 2100,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -160,17 +160,19 @@ data:extend(
     },
     unit =
     {
-      count = 1350,
+      count_formula = "6^(L-9)*2500",
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"high-tech-science-pack", 1},
         {"production-science-pack", 1},
+        {"high-tech-science-pack", 1},
+        {"space-science-pack", 1}
       },
       time = 60
     },
+    max_level = "infinite",
     upgrade = "true",
     order = "c-k-g-i"
   }

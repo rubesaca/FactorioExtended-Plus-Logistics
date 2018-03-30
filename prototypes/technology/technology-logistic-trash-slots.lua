@@ -20,7 +20,8 @@ data:extend(
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1 }
       },
       time = 60
     },
@@ -37,7 +38,7 @@ data:extend(
     {
       {
         type = "character-logistic-trash-slots",
-        modifier = 5
+        modifier = 10
       }
     },
     unit =
@@ -47,7 +48,9 @@ data:extend(
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1 },
+        {"high-tech-science-pack", 1}
       },
       time = 60
     },
