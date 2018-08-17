@@ -10,7 +10,7 @@ data:extend(
     {
       {
         type = "character-logistic-slots",
-        modifier = 5
+        modifier = 6
       }
     },
     unit =
@@ -38,7 +38,7 @@ data:extend(
     {
       {
         type = "character-logistic-slots",
-        modifier = 5
+        modifier = 6
       }
     },
     prerequisites = {"character-logistic-slots-7"},
@@ -67,7 +67,7 @@ data:extend(
     {
       {
         type = "character-logistic-slots",
-        modifier = 5
+        modifier = 6
       }
     },
     prerequisites = {"character-logistic-slots-8"},
@@ -96,7 +96,7 @@ data:extend(
     {
       {
         type = "character-logistic-slots",
-        modifier = 5
+        modifier = 6
       }
     },
     prerequisites = {"character-logistic-slots-9"},

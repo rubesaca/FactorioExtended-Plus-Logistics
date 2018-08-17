@@ -18,7 +18,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      input_flow_limit = "10MW",
+      input_flow_limit = "15MW",
       buffer_capacity = "200MJ"
     },
     recharge_minimum = "80MJ",
@@ -207,7 +207,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      input_flow_limit = "15MW",
+      input_flow_limit = "27MW",
       buffer_capacity = "400MJ"
     },
     recharge_minimum = "120MJ",

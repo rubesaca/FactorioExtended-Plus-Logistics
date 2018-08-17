@@ -10,7 +10,7 @@ data:extend(
     {
       {
         type = "character-logistic-trash-slots",
-        modifier = 5
+        modifier = 6
       }
     },
     unit =
@@ -38,7 +38,7 @@ data:extend(
     {
       {
         type = "character-logistic-trash-slots",
-        modifier = 10
+        modifier = 12
       }
     },
     unit =
