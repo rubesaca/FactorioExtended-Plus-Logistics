@@ -11,3 +11,8 @@ Date: 08. 16. 2018
     - Fixed research modifier on logistic and trash slots
   Changes :
     - Updated input_flow_limit on MK2 and MK3 roboports
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 03. 01. 2019
+  Changes :
+    - Updating to work with 0.17
