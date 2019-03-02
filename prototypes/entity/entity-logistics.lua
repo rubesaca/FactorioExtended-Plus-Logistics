@@ -56,7 +56,7 @@ data:extend({
         {
           filename = "__base__/graphics/entity/roboport/roboport-shadow.png",
           width = 147,
-          height = 102,
+          height = 101,
           draw_as_shadow = true,
           shift = util.by_pixel(28.5, 19.25),
           hr_version = {
@@ -110,14 +110,14 @@ data:extend({
     },
     door_animation_up =
     {
-      filename = "__base__/graphics/entity/roboport/roboport-door-up.png",
+      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-up-mk2.png",
       priority = "medium",
       width = 52,
       height = 20,
       frame_count = 16,
       shift = {0.015625, -0.890625},
       hr_version = {
-        filename = "__base__/graphics/entity/roboport/hr-roboport-door-up.png",
+        filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk2.png",
         priority = "medium",
         width = 97,
         height = 38,
@@ -128,14 +128,14 @@ data:extend({
     },
     door_animation_down =
     {
-      filename = "__base__/graphics/entity/roboport/roboport-door-down.png",
+      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-down-mk2.png",
       priority = "medium",
       width = 52,
       height = 22,
       frame_count = 16,
       shift = {0.015625, -0.234375},
       hr_version = {
-        filename = "__base__/graphics/entity/roboport/hr-roboport-door-down.png",
+        filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk2.png",
         priority = "medium",
         width = 97,
         height = 41,
@@ -245,7 +245,7 @@ data:extend({
         {
           filename = "__base__/graphics/entity/roboport/roboport-shadow.png",
           width = 147,
-          height = 102,
+          height = 101,
           draw_as_shadow = true,
           shift = util.by_pixel(28.5, 19.25),
           hr_version = {
@@ -299,14 +299,14 @@ data:extend({
     },
     door_animation_up =
     {
-      filename = "__base__/graphics/entity/roboport/roboport-door-up.png",
+      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-up-mk3.png",
       priority = "medium",
       width = 52,
       height = 20,
       frame_count = 16,
       shift = {0.015625, -0.890625},
       hr_version = {
-        filename = "__base__/graphics/entity/roboport/hr-roboport-door-up.png",
+        filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk3.png",
         priority = "medium",
         width = 97,
         height = 38,
@@ -317,14 +317,14 @@ data:extend({
     },
     door_animation_down =
     {
-      filename = "__base__/graphics/entity/roboport/roboport-door-down.png",
+      filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-down-mk3.png",
       priority = "medium",
       width = 52,
       height = 22,
       frame_count = 16,
       shift = {0.015625, -0.234375},
       hr_version = {
-        filename = "__base__/graphics/entity/roboport/hr-roboport-door-down.png",
+        filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk3.png",
         priority = "medium",
         width = 97,
         height = 41,
