@@ -1,13 +1,14 @@
 require ("circuit-connector-generated-definitions")
 
-data:extend({
+data:extend(
+{
   {
     type = "roboport",
     name = "roboport-mk2",
     icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/roboport-mk2.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "roboport-mk2"},
+    minable = { mining_time = 0.3, result = "roboport-mk2"},
     max_health = 750,
     corpse = "big-remnants",
     collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
@@ -45,7 +46,8 @@ data:extend({
           width = 143,
           height = 135,
           shift = {0.5, 0.25},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-mk2.png",
             width = 228,
             height = 277,
@@ -59,7 +61,8 @@ data:extend({
           height = 101,
           draw_as_shadow = true,
           shift = util.by_pixel(28.5, 19.25),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/roboport/hr-roboport-shadow.png",
             width = 294,
             height = 201,
@@ -78,7 +81,8 @@ data:extend({
       height = 50,
       frame_count = 1,
       shift = {0.03125, 0.203125},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-patch-mk2.png",
         priority = "medium",
         width = 138,
@@ -97,7 +101,8 @@ data:extend({
       frame_count = 8,
       animation_speed = 0.5,
       shift = {-0.5315, -1.9375},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/roboport/hr-roboport-base-animation.png",
         priority = "medium",
         width = 83,
@@ -116,7 +121,8 @@ data:extend({
       height = 20,
       frame_count = 16,
       shift = {0.015625, -0.890625},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk2.png",
         priority = "medium",
         width = 97,
@@ -134,7 +140,8 @@ data:extend({
       height = 22,
       frame_count = 16,
       shift = {0.015625, -0.234375},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk2.png",
         priority = "medium",
         width = 97,
@@ -183,7 +190,7 @@ data:extend({
     },
     circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
     circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
-    circuit_wire_max_distance = 7.5,
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_available_logistic_output_signal = {type = "virtual", name = "signal-X"},
     default_total_logistic_output_signal = {type = "virtual", name = "signal-Y"},
     default_available_construction_output_signal = {type = "virtual", name = "signal-Z"},
@@ -195,7 +202,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/roboport-mk3.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "roboport-mk3"},
+    minable = { mining_time = 0.3, result = "roboport-mk3"},
     max_health = 1000,
     corpse = "big-remnants",
     collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
@@ -234,7 +241,8 @@ data:extend({
           width = 143,
           height = 135,
           shift = {0.5, 0.25},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-mk3.png",
             width = 228,
             height = 277,
@@ -248,7 +256,8 @@ data:extend({
           height = 101,
           draw_as_shadow = true,
           shift = util.by_pixel(28.5, 19.25),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/roboport/hr-roboport-shadow.png",
             width = 294,
             height = 201,
@@ -267,7 +276,8 @@ data:extend({
       height = 50,
       frame_count = 1,
       shift = {0.03125, 0.203125},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-patch-mk3.png",
         priority = "medium",
         width = 138,
@@ -286,7 +296,8 @@ data:extend({
       frame_count = 8,
       animation_speed = 0.5,
       shift = {-0.5315, -1.9375},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/roboport/hr-roboport-base-animation.png",
         priority = "medium",
         width = 83,
@@ -305,7 +316,8 @@ data:extend({
       height = 20,
       frame_count = 16,
       shift = {0.015625, -0.890625},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk3.png",
         priority = "medium",
         width = 97,
@@ -323,7 +335,8 @@ data:extend({
       height = 22,
       frame_count = 16,
       shift = {0.015625, -0.234375},
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk3.png",
         priority = "medium",
         width = 97,
@@ -372,7 +385,7 @@ data:extend({
     },
     circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
     circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
-    circuit_wire_max_distance = 7.5,
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_available_logistic_output_signal = {type = "virtual", name = "signal-X"},
     default_total_logistic_output_signal = {type = "virtual", name = "signal-Y"},
     default_available_construction_output_signal = {type = "virtual", name = "signal-Z"},
@@ -386,7 +399,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/logistic-robot-mk2.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {hardness = 0.1, mining_time = 0.1, result = "logistic-robot-mk2"},
+    minable = { mining_time = 0.2, result = "logistic-robot-mk2"},
     resistances = { { type = "fire", percent = 90 } },
     max_health = 200,
     collision_box = {{0, 0}, {0, 0}},
@@ -411,7 +424,8 @@ data:extend({
       shift = {0.015625, -0.09375},
       direction_count = 16,
       y = 42,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/logistic-robot/hr-logistic-robot-mk2.png",
         priority = "high",
         line_length = 16,
@@ -434,7 +448,8 @@ data:extend({
       frame_count = 1,
       shift = {0.015625, -0.09375},
       direction_count = 16,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/logistic-robot/hr-logistic-robot-mk2.png",
         priority = "high",
         line_length = 16,
@@ -457,7 +472,8 @@ data:extend({
       shift = {0.015625, -0.09375},
       direction_count = 16,
       y = 126,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/logistic-robot/hr-logistic-robot-mk2.png",
         priority = "high",
         line_length = 16,
@@ -481,7 +497,8 @@ data:extend({
       shift = {0.015625, -0.09375},
       direction_count = 16,
       y = 84,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/logistic-robot/hr-logistic-robot-mk2.png",
         priority = "high",
         line_length = 16,
@@ -505,7 +522,8 @@ data:extend({
       shift = {0.96875, 0.609375},
       direction_count = 16,
       y = 23,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/logistic-robot/hr-logistic-robot-shadow.png",
         priority = "high",
         line_length = 16,
@@ -528,7 +546,8 @@ data:extend({
       frame_count = 1,
       shift = {0.96875, 0.609375},
       direction_count = 16,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/logistic-robot/hr-logistic-robot-shadow.png",
         priority = "high",
         line_length = 16,
@@ -551,7 +570,8 @@ data:extend({
       shift = {0.96875, 0.609375},
       direction_count = 16,
       y = 23,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/logistic-robot/hr-logistic-robot-shadow.png",
         priority = "high",
         line_length = 16,
@@ -574,7 +594,8 @@ data:extend({
       frame_count = 1,
       shift = {0.96875, 0.609375},
       direction_count = 16,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/logistic-robot/hr-logistic-robot-shadow.png",
         priority = "high",
         line_length = 16,
@@ -596,7 +617,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Logistics__/graphics/icons/construction-robot-mk2.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {hardness = 0.1, mining_time = 0.1, result = "construction-robot-mk2"},
+    minable = { mining_time = 0.2, result = "construction-robot-mk2"},
     resistances = { { type = "fire", percent = 90 } },
     max_health = 200,
     collision_box = {{0, 0}, {0, 0}},
@@ -621,7 +642,8 @@ data:extend({
       frame_count = 1,
       shift = {0, -0.15625},
       direction_count = 16,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/construction-robot/hr-construction-robot-mk2.png",
         priority = "high",
         line_length = 16,
@@ -644,7 +666,8 @@ data:extend({
       shift = {0, -0.15625},
       direction_count = 16,
       y = 36,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/construction-robot/hr-construction-robot-mk2.png",
         priority = "high",
         line_length = 16,
@@ -667,7 +690,8 @@ data:extend({
       frame_count = 1,
       shift = {1.09375, 0.59375},
       direction_count = 16,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/construction-robot/hr-construction-robot-shadow.png",
         priority = "high",
         line_length = 16,
@@ -689,7 +713,8 @@ data:extend({
       frame_count = 1,
       shift = {1.09375, 0.59375},
       direction_count = 16,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__base__/graphics/entity/construction-robot/hr-construction-robot-shadow.png",
         priority = "high",
         line_length = 16,
@@ -712,7 +737,8 @@ data:extend({
       shift = {0, -0.15625},
       direction_count = 16,
       animation_speed = 0.3,
-      hr_version = {
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/construction-robot/hr-construction-robot-working-mk2.png",
         priority = "high",
         line_length = 2,
@@ -815,7 +841,6 @@ data:extend({
         animation_speed = 0.3,
       },
     },
-    repair_pack = "repair-pack",
     working_sound = flying_robot_sounds(),
     cargo_centered = {0.0, 0.2},
     construction_vector = {0.30, 0.22},
