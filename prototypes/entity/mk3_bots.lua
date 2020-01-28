@@ -63,5 +63,4 @@ for _, key in pairs({"idle", "in_motion", "working"}) do
     cbot[key].hr_version.tint = Constant.blue_tint
 end
 
-log(serpent.block(cbot))
 data:extend({cbot})
