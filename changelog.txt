@@ -4,6 +4,7 @@ Date: 28. 01. 2020
   Changes :
     - Fixed mk2 bots sound files
     - Fixed mk3 mined construction bots being returning as logistic-bots
+    - General code refactor
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 21. 01. 2020
