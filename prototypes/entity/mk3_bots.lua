@@ -47,7 +47,7 @@ data:extend({lbot})
 
 local cbot = table.deepcopy(data.raw["construction-robot"]["construction-robot"])
 cbot.name = "construction-robot-mk3"
-cbot.minable = {mining_time = 0.1, result = lbot.name}
+cbot.minable = {mining_time = 0.1, result = cbot.name}
 cbot.icons = {{icon = lbot.icon, icon_mipmaps = 4, icon_size = 64, tint = Constant.blue_tint}}
 cbot.resistances = {{type = "fire", percent = 95}}
 cbot.max_health = 300
