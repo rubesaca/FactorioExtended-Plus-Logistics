@@ -52,7 +52,7 @@ cbot.icons = {{icon = lbot.icon, icon_mipmaps = 4, icon_size = 64, tint = Consta
 cbot.resistances = {{type = "fire", percent = 95}}
 cbot.max_health = 300
 cbot.max_payload_size = 3
-cbot.speed = 0.15
+cbot.speed = 0.18
 cbot.transfer_distance = 0.5
 cbot.max_energy = "4.5MJ"
 cbot.speed_multiplier_when_out_of_energy = 0.8
