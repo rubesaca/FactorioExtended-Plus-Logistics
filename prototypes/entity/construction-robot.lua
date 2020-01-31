@@ -25,8 +25,8 @@ cbot2.max_energy = "3MJ"
 cbot2.speed_multiplier_when_out_of_energy = 0.5
 cbot2.energy_per_move = "8kJ"
 for _, key in pairs({"idle", "in_motion", "working"}) do
-    cbot2[key].tint = Constant.blue_tint
-    cbot2[key].hr_version.tint = Constant.blue_tint
+    cbot2[key].tint = Constant.green_tint
+    cbot2[key].hr_version.tint = Constant.green_tint
 end
 
 local cbot3 = table.deepcopy(data.raw["construction-robot"]["construction-robot"])
