@@ -1,6 +1,8 @@
 local Constant = require("constant")
 
-data.raw["roboport"]["roboport"].fast_replaceable_group = "roboport"
+if not data.raw["roboport"]["roboport"].fast_replaceable_group then
+    data.raw["roboport"]["roboport"].fast_replaceable_group = "roboport"
+end
 
 local roboport2 = table.deepcopy(data.raw["roboport"]["roboport"])
 roboport2.name = "roboport-mk2"
