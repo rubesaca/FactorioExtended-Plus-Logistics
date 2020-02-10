@@ -1,9 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 31. 01. 2020
+  Changes :
+    - Fixed construction mk2 bots having correct 'tint' applied
+    - 0.18.4 removed .working as a property for construction bots, added a test to check first
+    - Check fast_replaceable_group un-declared before changing
+---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 28. 01. 2020
   Changes :
     - Fixed mk2 bots sound files
     - Fixed mk3 mined construction bots being returning as logistic-bots
+    - General code refactor
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 21. 01. 2020
