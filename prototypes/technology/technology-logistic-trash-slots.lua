@@ -1,5 +1,6 @@
 -- 0.4.3 .. only add new technology if the base technology exists
-if data.raw.technology["character-logistic-trash-slots"] then
+if data.raw.technology["character-logistic-trash-slots-1"] then
+    log("adding trash slots")
     data:extend(
         {
             {

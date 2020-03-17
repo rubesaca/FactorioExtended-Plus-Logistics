@@ -9,7 +9,7 @@
     "homepage": "",
     "description": "",
     "dependencies": [
-        "base >= 0.18.13",
+        "base >= 0.18.2",
         "FactorioExtended-Plus-Core >= 0.4.0"
     ]
 }
