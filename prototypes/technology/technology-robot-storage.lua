@@ -4,7 +4,7 @@ data:extend(
             type = "technology",
             name = "worker-robots-storage-4",
             icon = "__base__/graphics/technology/worker-robots-storage.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"worker-robots-storage-3", "titanium-processing"},
             effects = {
                 {
@@ -30,7 +30,7 @@ data:extend(
             type = "technology",
             name = "worker-robots-storage-5",
             icon = "__base__/graphics/technology/worker-robots-storage.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"worker-robots-storage-4"},
             effects = {
                 {
@@ -56,7 +56,7 @@ data:extend(
             type = "technology",
             name = "worker-robots-storage-6",
             icon = "__base__/graphics/technology/worker-robots-storage.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"worker-robots-storage-5"},
             effects = {
                 {
@@ -82,7 +82,7 @@ data:extend(
             type = "technology",
             name = "worker-robots-storage-7",
             icon = "__base__/graphics/technology/worker-robots-storage.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"worker-robots-storage-6"},
             effects = {
                 {
@@ -108,7 +108,7 @@ data:extend(
             type = "technology",
             name = "worker-robots-storage-8",
             icon = "__base__/graphics/technology/worker-robots-storage.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"worker-robots-storage-7"},
             effects = {
                 {
@@ -134,7 +134,7 @@ data:extend(
             type = "technology",
             name = "worker-robots-storage-9",
             icon = "__base__/graphics/technology/worker-robots-storage.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"worker-robots-storage-8"},
             effects = {
                 {

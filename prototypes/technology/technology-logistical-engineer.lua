@@ -4,7 +4,7 @@ data:extend(
             type = "technology",
             name = "logistic-robotics-2",
             icon = "__base__/graphics/technology/logistic-robotics.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"logistic-robotics", "advanced-electronics-2", "speed-module", "effectivity-module", "titanium-processing"},
             effects = {
                 {
@@ -35,7 +35,7 @@ data:extend(
             type = "technology",
             name = "logistic-robotics-3",
             icon = "__base__/graphics/technology/logistic-robotics.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"logistic-robotics-2"},
             effects = {
                 {

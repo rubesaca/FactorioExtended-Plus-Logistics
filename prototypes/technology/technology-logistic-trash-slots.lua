@@ -7,7 +7,7 @@ if data.raw.technology["character-logistic-trash-slots-1"] then
                 type = "technology",
                 name = "character-logistic-trash-slots-3",
                 icon = "__base__/graphics/technology/character-logistic-trash-slots.png",
-                icon_size = 128,
+                icon_size = 256,
                 prerequisites = {"character-logistic-trash-slots-2", "titanium-processing"},
                 effects = {
                     {
@@ -32,7 +32,7 @@ if data.raw.technology["character-logistic-trash-slots-1"] then
                 type = "technology",
                 name = "character-logistic-trash-slots-4",
                 icon = "__base__/graphics/technology/character-logistic-trash-slots.png",
-                icon_size = 128,
+                icon_size = 256,
                 prerequisites = {"character-logistic-trash-slots-3"},
                 effects = {
                     {
