@@ -27,7 +27,6 @@ cbot2.energy_per_move = "8kJ"
 for _, key in pairs({"idle", "in_motion", "working"}) do
     if cbot2[key] then
         cbot2[key].tint = Constant.green_tint
-        cbot2[key].hr_version.tint = Constant.green_tint
     end
 end
 
@@ -46,7 +45,6 @@ cbot3.energy_per_move = "11kJ"
 for _, key in pairs({"idle", "in_motion", "working"}) do
     if cbot3[key] then
         cbot3[key].tint = Constant.blue_tint
-        cbot3[key].hr_version.tint = Constant.blue_tint
     end
 end
 

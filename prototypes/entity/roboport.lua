@@ -21,14 +21,10 @@ roboport2.charging_offsets = {
     {2.5, -1.5}
 }
 
-roboport2.base.layers[1].filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk2.png"
-roboport2.base.layers[1].hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-mk2.png"
-roboport2.base_patch.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk2-patch.png"
-roboport2.base_patch.hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-patch-mk2.png"
-roboport2.door_animation_up.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-up-mk2.png"
-roboport2.door_animation_up.hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk2.png"
-roboport2.door_animation_down.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-down-mk2.png"
-roboport2.door_animation_down.hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk2.png"
+roboport2.base.layers[1].filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-mk2.png"
+roboport2.base_patch.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-patch-mk2.png"
+roboport2.door_animation_up.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk2.png"
+roboport2.door_animation_down.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk2.png"
 
 local roboport3 = table.deepcopy(data.raw["roboport"]["roboport"])
 roboport3.name = "roboport-mk3"
@@ -53,13 +49,9 @@ roboport3.charging_offsets = {
     {-2.5, 2.5}
 }
 
-roboport3.base.layers[1].filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk3.png"
-roboport3.base.layers[1].hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-mk3.png"
-roboport3.base_patch.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-base-mk3-patch.png"
-roboport3.base_patch.hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-patch-mk3.png"
-roboport3.door_animation_up.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-up-mk3.png"
-roboport3.door_animation_up.hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk3.png"
-roboport3.door_animation_down.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/roboport-door-down-mk3.png"
-roboport3.door_animation_down.hr_version.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk3.png"
+roboport3.base.layers[1].filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-mk3.png"
+roboport3.base_patch.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-base-patch-mk3.png"
+roboport3.door_animation_up.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-up-mk3.png"
+roboport3.door_animation_down.filename = "__FactorioExtended-Plus-Logistics__/graphics/entity/roboport/hr-roboport-door-down-mk3.png"
 
 data:extend({roboport2, roboport3})

@@ -26,7 +26,6 @@ lbot2.speed_multiplier_when_out_of_energy = 0.8
 lbot2.energy_per_move = "8kJ"
 for _, key in pairs({"idle", "idle_with_cargo", "in_motion", "in_motion_with_cargo"}) do
     lbot2[key].tint = Constant.green_tint
-    lbot2[key].hr_version.tint = Constant.green_tint
 end
 
 local lbot3 = table.deepcopy(data.raw["logistic-robot"]["logistic-robot"])
@@ -43,7 +42,6 @@ lbot3.speed_multiplier_when_out_of_energy = 0.8
 lbot3.energy_per_move = "11kJ"
 for _, key in pairs({"idle", "idle_with_cargo", "in_motion", "in_motion_with_cargo"}) do
     lbot3[key].tint = Constant.blue_tint
-    lbot3[key].hr_version.tint = Constant.blue_tint
 end
 
 data:extend({lbot2, lbot3})
